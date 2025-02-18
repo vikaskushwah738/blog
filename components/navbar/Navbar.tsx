@@ -41,11 +41,10 @@ const toggale =()=>{
                         <ul
                         //   ref={sidebarRef}
                           onClick={toggale}
-                          className={`opacity-70 ease-in-out translate-all duration-500 lg:hidden fixed w-[75%] right-0 space-y-4 h-screen text-gray-50 bg-[#242931] z-10 flex flex-col items-center pt-5 md:px-10 px-5`}>
+                          className={`opacity-70 ease-in-out translate-all duration-500 lg:hidden fixed w-[75%] right-0 space-y-5 h-screen text-gray-50 bg-[#242931] z-10 flex flex-col items-center pt-5 md:px-10 px-5`}>
                           <Tabs />
                           {/* {session && <Logout />} */}
-                        </ul>
-                      
+                        </ul>    
                  )}
         </header>
     )
